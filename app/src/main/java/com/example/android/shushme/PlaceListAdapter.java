@@ -36,7 +36,6 @@ public class PlaceListAdapter extends RecyclerView.Adapter<PlaceListAdapter.Plac
      * @param context the calling context/activity
      */
     public PlaceListAdapter(Context context, PlaceBuffer places) {
-        // TODO (4) Take a PlaceBuffer as an input and store it as a local private member mPlaces
         this.mContext = context;
         this.mPlaces = places;
     }
